@@ -1,0 +1,41 @@
+﻿body {
+}
+
+.box1 {
+    /*background-image: url(Images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    height: 851px;
+}
+
+    /*.box1 img {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    */
+
+.box1 {
+    position: relative;
+    overflow: hidden;
+}
+
+    .box1 h2 {
+        padding: 200px;
+        position: relative;
+        z-index: 2;
+        font-size: 30px;
+        font-family: montserrat;
+        white-space: pre-line;
+        font-size: 95px;
+        color: #4c4c4c;
+    }
+
+    #i1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        opacity: 0.6;
+    }

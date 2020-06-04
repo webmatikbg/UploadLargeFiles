@@ -1,0 +1,143 @@
+﻿body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+	background-color: #5C93C1;
+}
+
+.body-content {
+
+    background-color: #F3F3F3;
+}
+
+.navbar-nav > li {
+    padding-left: 2px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #C1C1C1;
+}
+.navbar-inverse .navbar-nav .menu-anagrafica {
+    color: #ffffff;
+	    background-color: #5C93C1;
+}
+
+.navbar-inverse .navbar-nav a.menu-anagrafica:hover {
+    color: #ffffff;
+	    background-color: #5CB85C;
+}
+
+.navbar-inverse .navbar-nav .menu-creazione {
+    color: #ffffff;
+	    background-color: #6D6D6D;
+}
+
+.navbar-inverse .navbar-nav a.menu-creazione:hover {
+    color: #ffffff;
+	    background-color: #5CB85C;
+}
+
+/*.navbar-nav > li > a {
+
+    line-height: 40px;
+}*/
+
+#tabella_componenti th {
+    text-align:center;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #EBF6FF;
+}
+
+
+.table tbody > tr > td {
+
+        border-top: 1px solid #428BCA;
+		background-color: #FBFBFB;
+}
+
+
+
+.col-md-6 {
+    padding-bottom: 20px;
+	min-height: 70px;
+}
+
+
+.col-md-3 {
+    MIN-HEIGHT: 50PX;
+}
+
+.panel-body .intervento-riquadro, .form-group .intervento-riquadro {
+    background-color: #EFEFEF;
+}
+
+
+.panel-warning > .panel-heading {
+    color: #FFFFFF;
+    background-color: #FF7600;
+    border-color: #FF0000;
+}
+
+
+.btn-warning {
+    color: #ffffff;
+    background-color: #EC7800;
+    border-color: rgb(202, 102, 0);
+}
+
+.btn-danger {
+    color: #ffffff;
+    background-color: #E20700;
+    border-color: #AB0600;
+}
+
+.bottoni-ricerca-su .col-md-5 {
+     width: 41.66666666666667%;
+	     display: initial;
+}
+
+.bottoni-ricerca-su .col-md-2 {
+    width: 16.666666666666664%;
+	    display: initial;
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+.container > .navbar-header {
+
+	width:3%;
+}
+
+.navbar-header img {
+
+	width:100%;
+	height: auto;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1077px) {
+
+
+.navbar-nav > li.logout-off {
+
+	display: none;
+}
+}
+
+
+.login {
+margin-top:30px;
+}
+
+.login img {
+margin-bottom:50px;
+height:220px;
+}
